@@ -17,12 +17,14 @@ pytesseract (pip install pytesseract)
 cv2 (pip install opencv-python)
 
 # Examples
-(run from the terminal):
+Running pdf_ocr.py from the terminal:
+
 python pdf_ocr.py . output --lang uig --method 1
 
 Here pdf_ocr.py is the script filename, the period indicates that it should look for pdf files in the same folder where the script is located, it should save the output files in a folder called <output>, it should only scan for text in Uyghur, and it should use method 1 for preprocessing (see details of preprocessing methods in the script).
 
 Running txts_to_csv.py from the terminal:
+
 python txts_to_csv.py /output
 Here it takes the default directory for input, i.e. the folder the script is located in, and a folder called <output> to save the output csv.
 
