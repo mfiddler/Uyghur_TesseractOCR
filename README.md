@@ -11,7 +11,9 @@ An additional script txts_to_csv.py can be used to dump the contents of multiple
 
 # Prerequisites:
 pdf2image (pip install pdf2image)
+
 pytesseract (pip install pytesseract)
+
 cv2 (pip install opencv-python)
 
 # Examples
