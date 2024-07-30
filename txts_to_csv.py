@@ -1,6 +1,6 @@
 # TXTS_TO_CSV
-# Dumps the contents of all .txt files in a folder into a csv, 
-# with one row per .txt file
+# This script takes all .txt files in the specified folder 
+# and dumps their contents into a csv, one row per .txt file.
 
 import argparse
 import glob
