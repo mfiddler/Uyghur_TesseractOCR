@@ -1,4 +1,6 @@
 # Uyghur_TesseractOCR
+
+# Overview
 The tools here take a pdf file with text in Uyghur Arabic (kona yéziq) script, scans it with an OCR engine called Tesseract, and outputs a file containing the text from the pdf.
 
 The script called pdf_ocr.py splits the pdf files in the specified input folder into one-page .tiff image files. These are converted to .txt, then merged into a longer document (which can be .txt, .pdf, or other specified extensions) containing the entire text of the original pdf. The functions in pdf_to_image.py are called when pdf_ocr.py is run. By default the script tells the OCR engine to process files in Uyghur and simplified Chinese fonts, but language(s) can be specified as an optional argument. 
