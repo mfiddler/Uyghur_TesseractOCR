@@ -1,6 +1,9 @@
 #More code for image preprocessing for OCR
-#not used in any of the other scripts in the folder, just extra resources for later
-#from https://nanonets.com/blog/ocr-with-tesseract/#preprocessingfortesseract
+
+#From https://nanonets.com/blog/ocr-with-tesseract/#preprocessingfortesseract
+
+#These functions are not used in any of the other scripts in my Uyghur_TesseractOCR repository,
+#just extra resources that could be used if desired.
 
 import cv2
 import numpy as np
