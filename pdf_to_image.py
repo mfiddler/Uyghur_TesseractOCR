@@ -1,5 +1,5 @@
 #PDF TO IMAGE CONVERSION 
-#taken, with a few changes, from https://iq.opengenus.org/pdf_to_image_in_python/
+#This script modified from https://iq.opengenus.org/pdf_to_image_in_python/
 
 #IMPORT LIBRARIES
 import pdf2image
