@@ -1,8 +1,8 @@
-#Description: uses tesseract's Uyghur OCR engine to generate machine-readable
+#Description: This script uses Tesseract's Uyghur OCR engine to generate machine-readable
 #text files from pdf files.
 
-#As the script is written now, this file and pdf_to_image.py should be in the
-#same folder as the pdfs to be processed, and there should be an output folder
+#This file and pdf_to_image.py should be in the same folder 
+#as the pdfs to be processed, and there should be an output folder
 #specified, probably an empty folder within the one that contains the scripts
 #and pdfs.
 
